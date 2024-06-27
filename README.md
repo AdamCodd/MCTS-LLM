@@ -2,7 +2,9 @@
 MCTS-Enhanced AI: A Monte Carlo Tree Search algorithm for iterative story refinement using language models.
 
 ## Overview
-This repository contains an implementation of the Monte Carlo Tree Search (MCTS) algorithm tailored for enhancing the creative capabilities of large language models. The system employs a tree-based strategy to systematically explore and refine response variations, optimizing output quality through multiple iterations. The approach is inspired by recent advancements in decision-making algorithms as detailed in [this academic paper](https://arxiv.org/pdf/2406.07394), with a specific adaptation for creative contexts such as short story generation using only local models.
+This repository contains an implementation of the Monte Carlo Tree Search (MCTS) algorithm tailored for enhancing the creative capabilities of large language models. The system employs a tree-based strategy to systematically explore and refine response variations, optimizing output quality through multiple iterations. 
+
+This approach is inspired by recent advancements in decision-making algorithms as detailed in [this academic paper](https://arxiv.org/pdf/2406.07394), with a specific adaptation for creative contexts such as short story generation using only local models.
 
 ## Applications (current/future)
 The main application of this project is to facilitate fine-tuning processes through Direct Preference Optimization (DPO) or similar techniques. The adaptability of the MCTS framework allows for potential expansions into other specialized domains including but not limited to:
