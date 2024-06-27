@@ -14,6 +14,7 @@ The main application of this project is to facilitate fine-tuning processes thro
 
 ### Features
 - MCTS algorithm for response refinement using CoT prompts.
+- Set a minimal number of depth=1 nodes to force exploration early on (useful to avoid getting stuck into a local optimum with the LLM responses)
 - Integration with language models for text generation and evaluation. Supports Alpaca, Llama3, Vicuna, ChatML instruction sets.
 - Using advanced samplers like dynamic temperature, minP... (thanks to Ooba/Kobold server) is possible while prompting language models.
 - Multiple evaluation metrics including perplexity, readability, coherence, diversity... and LLM auto-evaluation. Each of them can be used alone or combined.
