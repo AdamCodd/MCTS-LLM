@@ -38,7 +38,7 @@ The system has been tested with 7B/8B llama models mainly (within Kaggle limitat
 - TextBlob
 - Sentence-Transformers
 
-This project is still a WIP but perfectly usable in its current state. Also there is only a Jupiter notebook to run the project as I'm currently running the project with Kaggle.
+This project is still a WIP but perfectly usable in its current state. Also there is only a Jupyter notebook to run the project as I'm currently running the project with Kaggle.
 
 If you want to support me, you can [here](https://ko-fi.com/adamcodd). You can find all my finetuned NLP/vision models on [HuggingFace](https://huggingface.co/AdamCodd).
 
