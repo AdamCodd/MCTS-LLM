@@ -18,9 +18,12 @@ The main application of this project is to facilitate fine-tuning processes thro
 - Multiple evaluation metrics including perplexity, readability, coherence, diversity... and LLM auto-evaluation. Each of them can be used alone or combined.
 - Importance sampling for efficient node exploration (optional).
 - Visualization of the MCTS tree and Q-values at each iteration.
-- State saving and loading for interruption and resumption of long-running processes.
+- State saving (JSON) and loading for interruption and resumption of long-running processes.
 
 The system has been tested with 7B/8B llama models mainly (within Kaggle limitations). It should work seamlessly with bigger models, but models under 7B such as TinyLlama struggle a lot with the complex prompting.
+
+### Visualization example
+![Example](https://github.com/AdamCodd/MCTS-LLM/blob/main/example-visualization.png)
 
 ### Requirements
 - Python 3.7+
