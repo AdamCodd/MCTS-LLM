@@ -1,5 +1,5 @@
 # MCTS-LLM
-MCTS-Enhanced AI: A Monte Carlo Tree Search algorithm for iterative story refinement using language models.
+MCTS-Enhanced AI: A Monte Carlo Tree Search algorithm for iterative response refinement using language models.
 
 ## Overview
 This repository contains an implementation of the Monte Carlo Tree Search (MCTS) algorithm tailored for enhancing the creative capabilities of large language models. The system employs a tree-based strategy to systematically explore and refine response variations, optimizing output quality through multiple iterations. 
