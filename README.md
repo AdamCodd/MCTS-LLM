@@ -42,7 +42,7 @@ This project is still a WIP but perfectly usable in its current state. Also ther
 
 If you want to support me, you can [here](https://ko-fi.com/adamcodd). You can find all my finetuned NLP/vision models on [HuggingFace](https://huggingface.co/AdamCodd).
 
-Licence: Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA).
+License: Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA).
 
 ###  Citation and Acknowledgments
 ```bibtex
