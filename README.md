@@ -14,15 +14,15 @@ The main application of this project is to facilitate fine-tuning processes thro
 
 ### Features
 - MCTS algorithm for response refinement using CoT prompts.
-- Set a minimal number of depth=1 nodes to force exploration early on (useful to avoid getting stuck into a local optimum with the LLM responses)
+- Set a minimal number of depth=1 nodes to force exploration early on (useful to avoid getting stuck into a local optimum with LLM responses)
 - Integration with language models for text generation and evaluation. Supports Alpaca, Llama3, Vicuna, ChatML instruction sets.
-- Using advanced samplers like dynamic temperature, minP... (thanks to Ooba/Kobold server) is possible while prompting language models.
+- Using advanced samplers like dynamic temperature, minP... thanks to vLLM backend is possible while prompting language models.
 - Multiple evaluation metrics including perplexity, readability, coherence, diversity... and LLM auto-evaluation. Each of them can be used alone or combined.
 - Importance sampling for efficient node exploration (optional).
 - Visualization of the MCTS tree and Q-values at each iteration.
 - State saving (JSON) and loading for interruption and resumption of long-running processes, also save the final state into a JSON file (with all the feedbacks/refined answers from all iterations).
 
-The system has been tested with 7B/8B llama models mainly (within Kaggle limitations). It should work seamlessly with bigger models, but models under 7B such as TinyLlama struggle a lot with the complex prompting.
+The system has been tested with quantized 7B/8B llama models mainly (within Kaggle limitations). It should work seamlessly with bigger models, but models under 7B such as TinyLlama struggle a lot with the complex prompting.
 
 ### Visualization example
 ![Example](https://github.com/AdamCodd/MCTS-LLM/blob/main/example-visualization.png)
