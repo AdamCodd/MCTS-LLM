@@ -42,8 +42,7 @@ This project is still a WIP but perfectly usable in its current state. Also ther
 
 If you want to support me, you can [here](https://ko-fi.com/adamcodd). You can find all my finetuned NLP/vision models on [HuggingFace](https://huggingface.co/AdamCodd).
 
-### Contributing
-Contributions to improve the algorithm, add new features, or optimize performance are welcome. Please submit a pull request or open an issue to discuss proposed changes.
+Licence: Creative Commons Attribution-NonCommercial-ShareAlike (CC-BY-NC-SA).
 
 ###  Citation and Acknowledgments
 ```bibtex
